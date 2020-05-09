@@ -1,0 +1,7 @@
+*.pyc
+*.csv
+*.png
+.ideas/
+.idea/
+monitors/
+scores/
