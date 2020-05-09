@@ -3,7 +3,7 @@ from typing import List
 import numpy as np
 import torch
 
-from ml.experiment.agent.base import Agent
+from ml.agent import Agent
 from ml.model.transition import Transition
 from ml.network.dqn.dqn import DQN
 

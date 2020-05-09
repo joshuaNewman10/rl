@@ -5,7 +5,7 @@ import numpy as np
 from typing import Tuple
 
 from ml.config import ENVIRONMENT_NAME_CARTPOLE
-from ml.experiment.agent.dqn import DQNAgent
+from ml.agent.dqn import DQNAgent
 from ml.model.replay_memory import ReplayMemory
 from ml.network.dqn.dqn import DQN
 from ml.provider.env_runner import EnvironmentRunner

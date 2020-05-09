@@ -4,7 +4,7 @@ import gym
 import logging
 import numpy as np
 
-from ml.experiment.agent.base import Agent
+from ml.agent import Agent
 from ml.model.replay_memory import ReplayMemory
 
 LOGGER = logging.getLogger(__name__)
